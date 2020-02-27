@@ -34,51 +34,48 @@
         </div>
 
         <div class="product_data product_title">
-          <span class="product_data--name">Title</span>
-          <span class="product_data--content">{{ page.title }}</span>
+          <span class="product_data--content uppercase">{{ page.title }}</span>
          </div>
 
-        {% if page.dimensions %}
-        <div class="product_data product_dimensions">
-          <span class="product_data--name">Dimensions</span>
-          <span class="product_data--content">{{ page.dimensions }} cm</span>
+        {% if page.function %}
+        <div class="product_data product_function">
+          <span class="product_data--content uppercase">{{ page.function }}</span>
         </div>
         {% endif %}
 
-        <div class="product_data product_medium">
-          <span class="product_data--name">Medium</span>
-          <span class="product_data--content">{{ page.medium }}</span>
-        </div>
-
-        <div class="product_data product_year">
-          <span class="product_data--name">Year</span>
-          <span class="product_data--content">{{ page.year }}</span>
-        </div>
-
-        {% if page.serie %}
-        <div class="product_data product_serie">
-          <span class="product_data--name">Series</span>
-          <span class="product_data--content">
-            <a href="/{{ page.serie | slugify }}/">{{ page.serie }}</a>
-          </span>
+        {% if page.selling-points %}
+        <div class="product_data product_selling_points">
+          <ul>
+            {% for item in page.selling-points %}
+             <li>{{item.phrase}}</li>
+            {% endfor %}
+          </ul>
         </div>
         {% endif %}
 
-        <div class="product_data tags">
-          <span class="product_data--name">Tags</span>
-          <span class="product_data--content">
-            {% for tag in page.tags %}
-            <a class="nowrap" href="/{{ tag }}/">{{ tag }}</a>
-          {% endfor %}
-          </span>
+        {% if page.ingredients %}
+        <div class="product_data product_ingredients">
+          <span class="product_data--content">{{ page.ingredients }}</span>
         </div>
+        {% endif %}
+
+        {% if page.prices %}
+        <div class="product_data product_price">
+          <span class="product_data--content uppercase">Price</span>
+          <ul>
+            {% for item in page.prices %}
+             <li>{{item.price}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+
 
       </div>
 
 
     </div>
-
-    {% include tag_cloud.html %}
 
     {% include footer.html %}
 

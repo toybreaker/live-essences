@@ -97,7 +97,8 @@ svg {
 
 .container {
   padding: $vertical_rhythm;
-  max-width: 100%;
+  max-width: $mediaMaxWidth;
+  margin: 0 auto;
 
   @include media( "screen", ">minWidth") {
     padding: $vertical_rhythm*1.5;
@@ -108,10 +109,10 @@ svg {
   //   margin: 0 auto;
   // }
   //
-  @include media( "screen", ">maxWidth") {
-    max-width: 1920px; //fullHD
-    margin: 0 auto;
-  }
+  // @include media( "screen", ">maxWidth") {
+  //   max-width: 1920px; //fullHD
+  //   margin: 0 auto;
+  // }
 
   p {
     max-width: 700px;

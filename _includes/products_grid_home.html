@@ -10,7 +10,7 @@
         assign the page image and split at the extension dot
         {% endcomment %}
 
-        {% assign f = post.image | split: '.' %}
+        {% assign f = post.image_with_background | split: '.' %}
 
         <img class="painting_thumb" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
              srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
@@ -19,9 +19,17 @@
                      {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
              sizes="50vw" alt="{{ post.title }}, {{ post.medium }}">
 
-        <div class="painting_data painting_title center">
-          <span class="painting_data--content">{{ post.title }}</span>
-         </div>
+        <div class="painting_data painting_title">
+         <div class="painting_data--content uppercase">{{ post.title }}</div>
+        </div>
+
+        <div class="painting_data painting_title">
+         <div class="painting_data--content">{{ post.subtitle }}</div>
+        </div>
+
+        <div class="painting_data painting_title">
+         <div class="painting_data--content uppercase">{{ post.function }}</div>
+        </div>
 
 
       </a>
