@@ -119,18 +119,6 @@ section {
 
 .product_image {
   position: relative;
-  .vegetables & {
-    background-color: $product_category_1;
-    color: transparentize($black, .85);
-  }
-  .spices & {
-    background-color: $product_category_2;
-    color: transparentize($black, .85);
-  }
-  .fruits  & {
-    background-color: $product_category_3;
-    color: transparentize($black, .85);
-  }
 }
 
 .product_group {

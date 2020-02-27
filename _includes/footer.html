@@ -7,45 +7,6 @@
 
       <div class="menu_products series" role="menu">
 
-        <h3 class="title uppercase bottom_padded--med">Series</h3>
-
-        {% for item in site.series %}
-
-          {% if page.url contains item.url %}
-            {% unless item.publish == "notyet" %}
-            <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% else %}
-            {% unless item.publish == "notyet" %}
-            <a class="menu_item " role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="page_title">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% endif %}
-
-        {% endfor %}
-
-        <h3 class="title uppercase bottom_padded--med">Years</h3>
-
-        {% for item in site.years %}
-
-          {% if page.url contains item.url %}
-            {% unless item.publish == "notyet" %}
-            <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% else %}
-            {% unless item.publish == "notyet" %}
-            <a class="menu_item " role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-              <span class="page_title">{{ item.title }}</span>
-            </a>
-            {% endunless %}
-          {% endif %}
-
-        {% endfor %}
 
         <h3 class="title uppercase bottom_padded--med">About</h3>
 

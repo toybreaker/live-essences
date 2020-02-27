@@ -16,58 +16,15 @@
 
       {% include hero_block.html %}
 
-      {% comment %}
-      {% include current_exhibition.html %}
-      {% endcomment %}
-
       <div class="container home_painting_list" >
 
-        <h2 class="bottom_padded uppercase center">Selected Paintings</h2>
-
-        <div class="painting_group_list">
-
-            {% for image in site.data.paintings-home  %}
-
-                  <div class="painting_link_box">
-
-                    <a class="painting_link" href="/{{ image.file_name | replace:'adria-sartore-','' | replace:'.jpg','' }}">
-
-                      {% comment %}
-                      assign the page image and split at the extension dot
-                      {% endcomment %}
-
-                      {% assign f = image.file_name | split: '.' %}
-
-                      <img class="painting_link_image" loading="lazy" src="/assets/p/paintings/{{ f[0] }}{{ include.name }}-640.{{ f[1] }}"
-                           srcset="/assets/p/paintings/{{ f[0] }}{{ include.name }}-640.{{ f[1] }} 640w,
-                                   /assets/p/paintings/{{ f[0] }}{{ include.name }}-880.{{ f[1] }} 880w,
-                                   /assets/p/paintings/{{ f[0] }}{{ include.name }}-1024.{{ f[1] }} 1024w,
-                                   /assets/p/paintings/{{ f[0] }}{{ include.name }}-1920.{{ f[1] }} 1920w"
-                           sizes="100vw" alt="{{ page.title }} - {{ page.subtitle }}" />
-
-                      <div class="painting_title"><strong>{{ image.title }}</strong>{% if image.dimensions %}, {{ image.dimensions }} cm{% endif %}</div>
-
-                    </a>
-
-                  </div>
-
-              {% endfor %}
-
-        </div>
-
-          {% comment %}
-          at the moment no have
-          {% include series_grid.html %}
-          {% endcomment %}
+        <h2 class="bottom_padded uppercase center">Slogan one</h2>
 
       </div>
 
 
     </div>
 
-
-
-    {% include tag_cloud.html %}
 
     {% include footer.html %}
 

@@ -1,9 +1,9 @@
 ---
 layout: home
-title: LIVE ESSENCES ♡ Alive Drinks
+title: LIVE ESSENCES ♡ Healthy Drinks
 subtitle: Selected paintings
 description: #
-image: /assets/p/paintings/adria-sartore-2011001.jpg
+image: /assets/p/cover/liveessences_cover.jpg
 caption: ""
 image_align_top: true  #true or empty
 image_align_bottom:  #true or empty

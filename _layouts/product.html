@@ -1,0 +1,94 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include head.html %}
+
+  <body class="product {{page.imagecode}}">
+
+    {% include svg/defs.html %}
+
+    {% include header.html %}
+
+    <div class="bungkus group" role="main">
+
+      <div class="container">
+
+        <div class="product_image_box">
+
+          {% comment %}
+          assign the page image and split at the extension dot
+          {% endcomment %}
+
+          {% assign f = page.image | split: '.' %}
+
+          <img class="product_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+               srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
+                       {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
+                       {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
+                       {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
+               sizes="100vw" alt="{{ page.name }} - {{ page.subtitle }}" />
+
+        </div>
+
+        <div class="product_data product_title">
+          <span class="product_data--name">Title</span>
+          <span class="product_data--content">{{ page.title }}</span>
+         </div>
+
+        {% if page.dimensions %}
+        <div class="product_data product_dimensions">
+          <span class="product_data--name">Dimensions</span>
+          <span class="product_data--content">{{ page.dimensions }} cm</span>
+        </div>
+        {% endif %}
+
+        <div class="product_data product_medium">
+          <span class="product_data--name">Medium</span>
+          <span class="product_data--content">{{ page.medium }}</span>
+        </div>
+
+        <div class="product_data product_year">
+          <span class="product_data--name">Year</span>
+          <span class="product_data--content">{{ page.year }}</span>
+        </div>
+
+        {% if page.serie %}
+        <div class="product_data product_serie">
+          <span class="product_data--name">Series</span>
+          <span class="product_data--content">
+            <a href="/{{ page.serie | slugify }}/">{{ page.serie }}</a>
+          </span>
+        </div>
+        {% endif %}
+
+        <div class="product_data tags">
+          <span class="product_data--name">Tags</span>
+          <span class="product_data--content">
+            {% for tag in page.tags %}
+            <a class="nowrap" href="/{{ tag }}/">{{ tag }}</a>
+          {% endfor %}
+          </span>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    {% include tag_cloud.html %}
+
+    {% include footer.html %}
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+    {% include script_google_analytics.html %}
+
+
+  </body>
+
+</html>
