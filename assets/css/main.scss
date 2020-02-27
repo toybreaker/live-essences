@@ -58,9 +58,10 @@ $card_shadow--hover: 0px 0px 8px 0px rgba($black,0.12), 0px 8px 8px 0px rgba($bl
 $transition_shadow: box-shadow 0.2s ease;
 
 // buttons
-$black_stroke: hsl(0,0%,60%);
-$button_focus_bg: hsla(0, 0%, 91%, 1);
+$black_stroke: hsl(0,0%,10%);
+$button_focus_bg: $black_stroke;
 $button_book: hsl(205, 100%, 51%);
+$button_transition: 0.1s background-color linear, 0.1s color linear;
 
 //// Predefined Break-points
 $mediaMinWidth: 600px;

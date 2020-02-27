@@ -21,21 +21,23 @@
   display: inline-block;
   width: auto;
   line-height: 32px;
-  margin-top: $vertical_rhythm--small/2;
-  margin-right: $vertical_rhythm--small/2;
-  margin-bottom: $vertical_rhythm--small/2;
-  border: 1px solid $black_stroke;
-  border-radius: 4px;
+  font-weight: 500;
+  margin: 0;
+  border: 2px solid $black_stroke;
+  border-radius: 3px;
   color: $black;
-  padding: 0 10px;
-  opacity: 0.9;
-  -webkit-box-shadow: $card_shadow;
-  box-shadow: $card_shadow;
+  padding: 21px 34px;
+  background-color: transparent;
+  transition: $button_transition;
+  // opacity: 0.9;
+  // -webkit-box-shadow: $card_shadow;
+  // box-shadow: $card_shadow;
 
   &:focus,
   &:hover {
     cursor: pointer;
-    opacity: 1;
+    //opacity: 1;
+    color: $brand_color;
     background-color: $button_focus_bg;
   }
 
