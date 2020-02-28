@@ -3,7 +3,7 @@ layout: product
 title: aphrodisiac
 slugtitle: aphrodisiac
 subtitle: Deliciously Connected
-function: pre & post work out
+function: endorphin release
 selling-points:
  - phrase: strengthens endurance
  - phrase: energiser to help tissue rejuvenation

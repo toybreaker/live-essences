@@ -33,47 +33,42 @@
 
         </div>
 
-        <div class="product_data product_title">
-          <span class="product_data--content uppercase">{{ page.title }}</span>
-         </div>
+        <div class="product_infobox center">
 
-        {% if page.function %}
-        <div class="product_data product_function">
-          <span class="product_data--content uppercase">{{ page.function }}</span>
-        </div>
-        {% endif %}
+          <h2 class="uppercase">
+            <span class="product_title">{{ page.title }}</span>
+          </h2>
+          <h3 class="italic">
+            <span class="product_subtitle">{{ page.subtitle }}</span>
+          </h3>
+          <h5>
+            <span class="product_function uppercase">{{ page.function }}</span>
+          </h5>
 
-        {% if page.selling-points %}
-        <div class="product_data product_selling_points">
-          <ul>
-            {% for item in page.selling-points %}
-             <li>{{item.phrase}}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
+          {% if page.selling-points %}
+            <div class="product_selling_points">
+              <ul class="">
+                {% for item in page.selling-points %}
+                  <li>{{item.phrase}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
 
-        {% if page.ingredients %}
-        <div class="product_data product_ingredients">
-          <span class="product_data--content">{{ page.ingredients }}</span>
-        </div>
-        {% endif %}
+          {% if page.ingredients %}
+            <div class="product_ingredients">{{ page.ingredients }}</div>
+          {% endif %}
 
-        {% if page.prices %}
-        <div class="product_data product_price">
-          <span class="product_data--content uppercase">Price</span>
-          <ul>
+          {% if page.prices %}
+          <div class="product_price">Price</div>
             {% for item in page.prices %}
-             <li>{{item.price}}</li>
+             <div>{{item.price}}</div>
             {% endfor %}
-          </ul>
+          {% endif %}
+
         </div>
-        {% endif %}
-
-
 
       </div>
-
 
     </div>
 

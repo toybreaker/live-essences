@@ -1,4 +1,4 @@
-<div class="product_grid">
+<div class="auto_grid">
   {% for post in site.wellnessshots %}
     {% unless post.publish %}
     <div class="product_block">
@@ -17,16 +17,16 @@
                      {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
              sizes="50vw" alt="{{ post.title }}, {{ post.medium }}">
 
-        <div class="product_data product_title">
-         <div class="product_data--content uppercase">{{ post.title }}</div>
-        </div>
-
-        <div class="product_data product_title">
-         <div class="product_data--content">{{ post.subtitle }}</div>
-        </div>
-
-        <div class="product_data product_title">
-         <div class="product_data--content uppercase">{{ post.function }}</div>
+        <div class="product_infobox center">
+          <h2 class="uppercase">
+            <span class="product_title">{{ post.title }}</span>
+          </h2>
+          <h3 class="italic">
+            <span class="product_subtitle">{{ post.subtitle }}</span>
+          </h3>
+          <h5>
+            <span class="product_function uppercase">{{ post.function }}</span>
+          </h5>
         </div>
 
 

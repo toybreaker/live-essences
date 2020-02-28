@@ -4,20 +4,16 @@
   }
 }
 
-
-.block_grid {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr) ) ;
-
-  .block {
-    //padding:10px;
-  }
-}
-
 .retailers_list {
   padding-left: $vertical_rhythm--small;
   list-style: none;
+
+  a {
+    color: $grey--black;
+    &:hover {
+      color: $grey--darker;
+    }
+  }
 
   li {
     height: 30px;
@@ -34,5 +30,7 @@
   svg {
     width: 20px;
     height: 20px;
+    position: relative;
+    top: 4px;
   }
 }
