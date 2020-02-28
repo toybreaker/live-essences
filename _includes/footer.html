@@ -8,20 +8,20 @@
       <div class="menu_products series" role="menu">
 
 
-        <h3 class="title uppercase bottom_padded--med">About</h3>
+        <h3 class="title uppercase bottom_padded--med">{{site.title}}</h3>
 
-          {% for item in site.about %}
+          {% for item in site.pages %}
 
             {% if page.url contains item.url %}
               {% unless item.publish == "notyet" %}
               <a class="menu_item active" role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-                <span class="">{{ item.title }}</span>
+                <span class="">{{ item.title | capitalize }}</span>
               </a>
               {% endunless %}
             {% else %}
               {% unless item.publish == "notyet" %}
               <a class="menu_item " role="menuitem" title="{{ item.title }}" href="/{{ item.title | slugify }}">
-                <span class="page_title">{{ item.title }}</span>
+                <span class="page_title">{{ item.title | capitalize }}</span>
               </a>
               {% endunless %}
             {% endif %}
@@ -35,7 +35,7 @@
 
       <div class="menu_contacts" role="menu">
 
-        <h3 class="title uppercase bottom_padded--med">{{site.title}}</h3>
+        <h3 class="title uppercase bottom_padded--med">Made in Bali with Love</h3>
 
         {% if site.company.address %}
         <div class="footer_icon address">

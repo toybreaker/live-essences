@@ -12,7 +12,7 @@ $grey: hsl(0,0,80%);
 $grey--light: hsl(0,0,90%);
 $grey--dark: hsl(0,0,65%);
 $grey--darker: hsl(0,0,50%);
-$grey--darkest: hsl(0,0,35%);
+$grey--darkest: hsla(0, 0%, 11%, 0.79); // #1c1c1c, rgba(28, 28, 28, 0.79) old hsl(0,0,35%);
 $grey--black: hsl(0,0,20%);
 
 $link_color: $grey--darkest;
