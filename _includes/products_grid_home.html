@@ -1,5 +1,5 @@
 <div class="auto_grid">
-  {% for post in site.wellnessshots %}
+  {% for post in site.wellnessshots reversed %}
     {% unless post.publish %}
     <div class="product_block">
       <a class="product_link" href="{{ post.url }}" title="view: {{ post.title }}" >
