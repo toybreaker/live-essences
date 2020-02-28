@@ -1,9 +1,9 @@
-.painting_link_box {
+.product_link_box {
   padding-top: $vertical_rhythm;
 }
 
 
-.painting_link {
+.product_link {
   display: block;
   margin-bottom: $vertical_rhythm;
   color: $grey--dark;
@@ -12,11 +12,11 @@
   }
 }
 
-.painting_title {
+.product_title {
     padding-top: $vertical_rhythm--small;
 }
 
-.painting_grid {
+.product_grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1rem;
@@ -30,7 +30,7 @@
     //border: 1px $grey solid;
   }
 
-  .painting_link {
+  .product_link {
     margin-bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -47,7 +47,7 @@
   }
 }
 
-.painting_data  {
+.product_data  {
   padding-top: $vertical_rhythm--small/2;
   padding-bottom:0;
   line-height: 1.25;
@@ -58,22 +58,22 @@
 
   @include media("screen", ">minWidth") {
 
-    .painting_data--content,
-    .painting_data--name {
+    .product_data--content,
+    .product_data--name {
       display: table-cell!important;
       //padding-top: $vertical_rhythm--small;
       padding-right: $vertical_rhythm!important;
     }
   }
 
-  .painting_data--content {
+  .product_data--content {
     font-weight: $font_weight--light;
     font-size: 16px;
     //text-align: center;
     display: block;
   }
 
-  .painting_data--name {
+  .product_data--name {
     font-style: italic;
     font-size: 14px;
     font-weight: $font_weight--min;
@@ -81,25 +81,19 @@
   }
 }
 
-.tag_page,
-.serie {
-  .painting_data--content {
+.tag_page {
+  .product_data--content {
     font-size: 14px;
   }
-  .painting_dimensions {
+  .product_dimensions {
     font-size: 13px;
     padding-top: $vertical_rhythm--small/4;
-    .painting_data--content {
+    .product_data--content {
       font-weight: $font_weight--min!important;
     }
   }
 }
 
-
-.painting_serie a {
-  font-weight: $font_weight--light!important;
-}
-
-.painting .painting_image {
+.product .product_image {
   margin-bottom: $vertical_rhythm--small;
 }

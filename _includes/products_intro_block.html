@@ -1,11 +1,11 @@
-<div class="hero">
+<div class="product_intro_block">
 
   {% comment %}
   assign the page image and split at the extension dot
   {% endcomment %}
-  {% assign f = page.image | split: '.' %}
+  {% assign f = page.products_intro_image | split: '.' %}
 
-  <img class="hero_image {% if page.image_align_bottom %}align_bottom{% endif %}{% if page.image_align_top %}align_top{% endif %} {% if page.image_align_left %}align_left{% endif %} {% if page.image_align_right %}align_right{% endif %}" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+  <img class="product_intro_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
        srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
                {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
                {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,

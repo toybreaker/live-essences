@@ -13,6 +13,8 @@
   position: absolute;
   left: 50%;
   top: 50%;
+  left: auto;
+  right: auto;
   transform: translate(-50%,-50%);
   z-index: 2;
   //fix
@@ -41,10 +43,32 @@
     }
   }
 
+  &.align_right {
+    left: 50%;
+    top: 50%;
+    left: auto;
+    right: 0;
+    transform: translate(-50%,0);
+    @include media( "screen", ">maxWidth") {
+      transform: none;
+    }
+  }
+
   &.align_bottom {
     bottom: 0;
     top: auto;
     transform: translate(-50%,0);
+    @include media( "screen", ">maxWidth") {
+      transform: none;
+    }
+  }
+
+  &.align_left {
+    left: 50%;
+    top: 50%;
+    left: 0;
+    right: auto;
+    transform: translate(0, -50%);
     @include media( "screen", ">maxWidth") {
       transform: none;
     }

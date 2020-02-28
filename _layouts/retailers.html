@@ -26,27 +26,27 @@
 
           </div>
 
-          <div class="painting_grid bigger">
+          <div class="product_grid bigger">
 
             {% capture this_serie %}{{page.title}}{% endcapture %}
 
-            {% for painting in site.posts %}
-              {% if painting.serie == this_serie %}
+            {% for product in site.posts %}
+              {% if product.serie == this_serie %}
 
-              <div class="painting_block">
-                <a class="painting_link" href="{{ painting.url }}" title="view: {{ painting.title }}" >
+              <div class="product_block">
+                <a class="product_link" href="{{ product.url }}" title="view: {{ product.title }}" >
 
-                  <img src="/assets/p/paintings/{{ site.title | slugify }}-{{ painting.permalink }}-880.jpg" alt="">
+                  <img src="/assets/p/products/{{ site.title | slugify }}-{{ product.permalink }}-880.jpg" alt="">
 
-                  <div class="painting_data">
-                    <div class="painting_title">
-                      <span class="painting_data--content">{{ painting.title }}</span>
+                  <div class="product_data">
+                    <div class="product_title">
+                      <span class="product_data--content">{{ product.title }}</span>
                      </div>
 
 
-                    {% if painting.dimensions %}
-                    <div class="painting_dimensions">
-                      <span class="painting_data--content">{{ painting.dimensions }} cm</span>
+                    {% if product.dimensions %}
+                    <div class="product_dimensions">
+                      <span class="product_data--content">{{ product.dimensions }} cm</span>
                     </div>
                     {% endif %}
                   </div>

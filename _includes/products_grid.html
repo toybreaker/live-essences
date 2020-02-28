@@ -1,10 +1,10 @@
-<h3 class="center uppercase bottom_padded top_padded">Series Titles</h3>
+<h3 class="center uppercase bottom_padded top_padded">Wellness Drinks</h3>
 
-<div class="painting_grid">
+<div class="product_grid">
   {% for post in site.wellnessshots %}
     {% unless post.publish %}
-    <div class="painting_block">
-      <a class="painting_link" href="{{ post.url }}" title="view: {{ post.title }}" >
+    <div class="product_block">
+      <a class="product_link" href="{{ post.url }}" title="view: {{ post.title }}" >
 
         {% comment %}
         assign the page image and split at the extension dot
@@ -12,15 +12,15 @@
 
         {% assign f = post.image | split: '.' %}
 
-        <img class="painting_thumb" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+        <img class="product_thumb" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
              srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
                      {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
                      {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
                      {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
              sizes="50vw" alt="{{ post.title }}, {{ post.medium }}">
 
-        <div class="painting_data painting_title center">
-          <span class="painting_data--content">{{ post.title }}</span>
+        <div class="product_data product_title center">
+          <span class="product_data--content">{{ post.title }}</span>
          </div>
 
 
