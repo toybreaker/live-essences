@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 170px);
   overflow: hidden;
   z-index: 1;
   @include media( "screen", ">maxWidth") {
@@ -26,7 +26,7 @@
   @include media( "screen", ">bp1Width") {
     min-width: 100%;
     height: auto;
-    min-height: calc(100vh - 40px);
+    min-height: calc(100vh - 170px);
   }
   @include media( "screen", ">maxWidth") {
     position: static;

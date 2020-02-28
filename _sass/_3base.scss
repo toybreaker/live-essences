@@ -108,6 +108,10 @@ svg {
     padding: $vertical_rhythm*1.5;
   }
 
+  &.small_padding {
+    padding: $vertical_rhythm/2;
+  }
+
   // @include media( "screen", ">bp1Width") {
   //   max-width: 1000px;
   //   margin: 0 auto;

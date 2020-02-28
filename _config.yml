@@ -2,9 +2,9 @@ title: Live Essences
 short_title: Live Essences
 subtitle: ""
 description: "NOURISH | REVIVE | ENERGIZE. Transforming medicinal plants into wellness shots. Live Essences offer a selection of botanical drinks, made from herbs, fruits and wild roots rich in natural vitamins, minerals, antioxidants and probiotics, for an healthy life."
-keywords: natural, fruits, vitamins, minerals, antioxidants, botanical, essences, probiotics, healthy life, Live Essences, herbs, wild roots, drinks,
+keywords: natural, fruits, vitamins, minerals, antioxidants, botanical, essences, probiotics, healthy life, Live Essences, herbs, wild roots, drinks, Bali, Indonesia, made in Bali.
 lang: en
-version: 0.0.8
+version: 0.0.10
 baseurl: ""
 url: "https://liveessences.junglestar.org"
 qr: true # 'true' or empty put qr.svg in includes/defs.html call it: icn--qr
@@ -81,6 +81,7 @@ collections:
   output: true
   permalink: /:title/
  pages:
+  output: true
   permalink: /:title/
 
 defaults:

@@ -13,7 +13,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: $vertical_rhythm/4 $vertical_rhythm/2;
+  padding: $vertical_rhythm $vertical_rhythm/2 0 $vertical_rhythm/2;
   @include media("screen", ">minWidth") {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -25,8 +25,8 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding-top: $vertical_rhythm/2;
-    padding-bottom: $vertical_rhythm/2;
+    // padding-top: $vertical_rhythm/2;
+    // padding-bottom: $vertical_rhythm/2;
   }
 
   .tag_page &,
@@ -76,7 +76,7 @@
 
   .logo {
     //svg
-    height: 100px;
+    height: 90px;
   }
 
   h1 {
