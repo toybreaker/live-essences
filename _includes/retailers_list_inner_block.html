@@ -1,0 +1,7 @@
+<li>
+  {% if retailer.googlemap %}
+    <a class="address_icon" href="{{retailer.googlemap}}">{% include svg/use.html id="icn--location" class="location" %} <span class="retailer_name">{{ retailer.retailer_name | upcase }}</span></a>
+  {% else %}
+  <span class="retailer_name">{{ retailer.retailer_name | upcase }}</span>
+  {% endif %}
+</li>

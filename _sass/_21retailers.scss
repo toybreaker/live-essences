@@ -1,0 +1,38 @@
+.block_grid_container {
+  .location_name {
+    padding-left: $vertical_rhythm--small;
+  }
+}
+
+
+.block_grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr) ) ;
+
+  .block {
+    //padding:10px;
+  }
+}
+
+.retailers_list {
+  padding-left: $vertical_rhythm--small;
+  list-style: none;
+
+  li {
+    height: 30px;
+  }
+
+  .address_icon {
+    position: relative;
+    left: -$vertical_rhythm--small*1.5;
+  }
+  .retailer_name {
+    white-space: nowrap;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

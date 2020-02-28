@@ -6,7 +6,7 @@
 
   {% include head.html %}
 
-  <body class="{{page.title}} serie">
+  <body class="{{page.title}} retailers">
 
     {% include svg/defs.html %}
 
@@ -20,9 +20,88 @@
 
           <div class="content_header">
 
-            <h2 class="center">{{ page.title }}</h2>
+            <h2 class="center">{{ page.title | capitalize }}</h2>
 
-            <h4 class="center">{{ page.subtitle }}</h4>
+            <h4 class="center">{{ page.subtitle | capitalize }}</h4>
+
+            <div class="block_grid_container">
+
+              <div class="block_grid">
+
+                <div class="block">
+                  <h3 class="location_name uppercase">canggu</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "canggu" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+                <div class="block">
+
+                  <h3 class="location_name uppercase">ubud</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "ubud" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+                <div class="block">
+
+                  <h3 class="location_name uppercase">bingin</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "bingin" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+
+
+                <div class="block">
+
+                  <h3 class="location_name uppercase">gili air</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "gili air" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+                <div class="block">
+
+                  <h3 class="location_name uppercase">gili trawangan</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "gili trawangan" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
 
           </div>
 

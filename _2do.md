@@ -1,5 +1,4 @@
 ## 2dos:
-- product ingredient tags nav (manually)
 - contact form
 - backend
 - google analytics

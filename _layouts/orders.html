@@ -6,7 +6,7 @@
 
   {% include head.html %}
 
-  <body class="{{page.title | slugify}}">
+  <body class="{{page.title}} orders">
 
     {% include svg/defs.html %}
 
@@ -15,9 +15,19 @@
     <div class="bungkus group" role="main">
 
       <div class="container">
+
         <div class="content">
-          {{ content }}
+
+          <div class="content_header">
+
+            <h2 class="center">{{ page.title | capitalize }}</h2>
+
+            <h4 class="center">{{ page.subtitle }}</h4>
+
+          </div>
+
         </div>
+
       </div>
 
     </div>
@@ -29,7 +39,6 @@
     {% include script_append_to_copy_action.html %}
 
     {% include script_google_analytics.html %}
-
 
   </body>
 
