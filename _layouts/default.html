@@ -15,14 +15,24 @@
     <div class="bungkus group" role="main">
 
       <div class="container">
+
         <div class="content">
-          {{ content }}
+
+          <div class="content_header">
+
+            <h2 class="center">{{ page.title | capitalize }}</h2>
+
+            <h4 class="center">{{ page.subtitle }}</h4>
+
+          </div>
+
+          <div class="content_body">{{ content }}</div>
+
         </div>
+
       </div>
 
     </div>
-
-    {% include tag_cloud.html %}
 
     {% include footer.html %}
 
