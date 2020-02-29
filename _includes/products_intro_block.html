@@ -3,13 +3,13 @@
   {% comment %}
   assign the page image and split at the extension dot
   {% endcomment %}
-  {% assign f = page.products_intro_image | split: '.' %}
+  {% assign f = page.image_products_intro | split: '.' %}
 
   <img class="product_intro_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
        srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
                {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
                {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
                {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
-       sizes="100vw" alt="{{ page.name }} - {{ page.subtitle }}" />
+       sizes="100vw" alt="Our range of wellness drinks" />
 
  </div>
