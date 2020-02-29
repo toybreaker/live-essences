@@ -69,6 +69,20 @@
 
                 </div>
 
+                <div class="block">
+
+                  <h3 class="location_name uppercase">nusa dua</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "nusa dua" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
 
 
                 <div class="block">

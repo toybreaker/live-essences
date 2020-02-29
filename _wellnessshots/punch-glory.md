@@ -8,7 +8,7 @@ selling-points:
  - phrase: detox and heal
  - phrase: fights bacteria, viruses and fungi
  - phrase: soothes hangover & flu symptoms
-ingredients: daikon, garlic, chilli, turmeric, ginger ,spirulina, onion, palmyra nectar, coconut vinegar.
+ingredients: daikon, garlic, chilli, turmeric, ginger, spirulina, onion, palmyra nectar, coconut vinegar.
 prices:
  - price: 150k - 250ml Bottle
  - price: 45k - 60ml Bottle
