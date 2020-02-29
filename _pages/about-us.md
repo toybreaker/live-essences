@@ -1,11 +1,11 @@
 ---
 layout: default
 title: about us
-subtitle: 
+subtitle:
 publish: # notyet or blank
 image: /assets/p/others/about-us.jpg
 ---
-## Made in Bali with Love
+### My intention is to share what I have learned
 
 My name is Iris. I was raised in a Greek and a German world. Grandmother Yaya was a mountain farmer full of vigour from a tiny village in the island of Crete. She fed my summers with wonderful stories of plants and natural wisdom.
 
@@ -19,6 +19,20 @@ I realised that by reconnecting with the essence of my childhood, I was creating
 
 Today, I have put all these feelings into 5 intense Essences, crafted with ancient and modern wisdom.
 
-My intention is to share with you all that I have learned, and all that has brought me happiness and fulfilment in the hope that this helps you on your own journey.
+My intention is to share with you all that I have learned, and all that has brought me happiness and fulfilment in the hope that this helps you on your own journey. With love, Iris.
 
-With love, Iris
+### Our Vision
+
+Keep brand, products and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
+
+**Live Essences** is inspired by the purity and power of the natural world. We unlock nature’s healing properties creating products that are pure, unadulterated and honest.
+
+Our drinks are currently produced in Bali from the highest quality ingredients we are able to source, and devoid of any pesticides or harmful chemicals.
+
+### The Product
+
+We work with high-quality, invigorating ingredients to deliver drinks that are potent tonics. Pure and authentic, our high-vibrational tonics are functional to cellular health. Life elixirs that promote healing, slow ageing and balance our body.
+
+Rooted in ancient knowledge, our jamu essences are carefully prepared to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy, minimally processed and never overheated.
+
+Crafted from Mother Nature’s most powerful ingredients, our wellness shots use organic, fair-trade premium ingredients sourced from the foothills of Mount Batur in Bali.
