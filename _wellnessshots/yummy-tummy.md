@@ -11,7 +11,7 @@ selling-points:
 ingredients: red apple, pineapple, ginger, sirsak, sea-salt, cabbage, palmyra nectar, pineapple vinegar.
 prices:
  - price: 150k - 250ml Bottle
- - price: 45k - 60ml Bottle
+ - price: 50k - 60ml Bottle
 description:
 publish: # notyet or blank
 image: /assets/p/products/live-essences-yummy-tummy.jpg

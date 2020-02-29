@@ -13,29 +13,27 @@ In Munich, I used to spend hours watching grandmother Oma crafting, with enginee
 
 I moved to Bali in 2000, after years exploring Asia, and myself. I started launching a fashion business. My creativity sparked. I felt unstoppable!
 
-Bali was taking me back to the warmth, simplicity, energising and nature-honouring lifestyle of Greece.
+Bali took me back to the warmth, simplicity, energising and nature-honouring lifestyle of Greece.
 
 I realised that by reconnecting with the essence of my childhood, I was creating a new sense for my life, and looking towards an exciting future.
 
-Today, I have put all these feelings into 5 intense Essences, crafted with ancient and modern wisdom.
+Today, I have put all these feelings into 5 Essences, crafted with ancient wisdom and modern techniques.
 
-My intention is to share with you all what I have learned, and all that has brought me happiness and fulfilment, in the hope that this helps you on your own journey.
+My intention is to share with you all what I have learned, and all that has brought me happiness and fulfilment, in the hope this will help you on your own journey.
 
 ### Our Vision
 
 Keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
-**Live Essences** is inspired by the purity and power of the natural world. We unlock nature’s healing properties creating unadulterated and honest products.
-
-Our drinks are currently produced in Bali from the highest quality ingredients we are able to source, and devoid of any pesticides or harmful chemicals.
+**Live Essences** is inspired by the purity and power of the natural world. We unlock nature’s healing properties creating unadulterated and healthy products.
 
 ### The Product
 
-We work with high-quality, invigorating ingredients to deliver drinks that are potent tonics, functional to cellular health. Life elixirs that promote healing, slow ageing and balance our body.
+We work with high-quality, invigorating ingredients to deliver drinks that are potent tonics, functional to cellular health. Life elixirs promoting healing, slowing ageing and balancing our body.
 
-Rooted in ancient knowledge, our **Live Essences Wellness shots** are jamu essences carefully prepared, never overheated and minimally processed, to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy.
+Rooted in ancient knowledge, our **Live Essences Wellness shots** are carefully prepared, never overheated and minimally processed, to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy.
 
-Crafted from Mother Nature’s most powerful ingredients, our drinks use organic, fair-trade premium ingredients sourced from the foothills of Mount Batur in Bali.
+Crafted from Mother Nature’s most powerful plants, our drinks are currently produced in Bali using organic, fair-trade premium ingredients, devoid of any pesticides or harmful chemicals, sourced from the foothills of Mount Batur in Bali.
 
 **Live Essences Wellness shots** are processed with care with essential probiotics and vital acetic acids.
 
