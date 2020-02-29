@@ -1,0 +1,40 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+
+  {% include head.html %}
+
+  <body class="product {{page.imagecode}}">
+
+    {% include svg/defs.html %}
+
+    {% include header.html %}
+
+    <div class="bungkus group" role="main">
+
+      <div class="container">
+
+        <h3 class="center uppercase bottom_padded top_padded">{{page.pagetitle}}</h3>
+
+        <h5 class="center uppercase bottom_padded ">{{page.subtitle}}</h5>
+
+        {% include products_grid.html %}
+
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+    {% include script_ext_link.html %}
+
+    {% include script_append_to_copy_action.html %}
+
+    {% include script_google_analytics.html %}
+
+
+  </body>
+
+</html>

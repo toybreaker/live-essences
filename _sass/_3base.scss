@@ -218,7 +218,7 @@ a.underline {
 
   //slick ala wired!
   display: inline-block;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid $grey;
   &:hover {
     top: 1px;
   }
@@ -255,4 +255,12 @@ a.underline {
 
 .italic {
   font-style: italic;
+}
+
+.top_border {
+  border-top: $grey 1px solid;
+}
+
+.bottom_border {
+  border-bottom: $grey 1px solid;
 }

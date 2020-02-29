@@ -1,12 +1,13 @@
 .previos_next_navigator {
-    border-top: #cccccc 1px solid;
     position: relative;
+    min-height: 80px;
 
     .right {
       margin: $vertical_rhythm--small;
       position: absolute;
       right: 0;
       top: 0;
+      text-align: right;
     }
 
     .left {

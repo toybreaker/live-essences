@@ -1,7 +1,5 @@
-<h3 class="center uppercase bottom_padded top_padded">Wellness Drinks</h3>
-
-<div class="product_grid">
-  {% for post in site.wellnessshots %}
+<div class="auto_grid">
+  {% for post in site.wellnessshots reversed %}
     {% unless post.publish %}
     <div class="product_block">
       <a class="product_link" href="{{ post.url }}" title="view: {{ post.title }}" >
@@ -10,7 +8,7 @@
         assign the page image and split at the extension dot
         {% endcomment %}
 
-        {% assign f = post.image | split: '.' %}
+        {% assign f = post.image_with_background | split: '.' %}
 
         <img class="product_thumb" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
              srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
@@ -19,9 +17,17 @@
                      {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
              sizes="50vw" alt="{{ post.title }}, {{ post.medium }}">
 
-        <div class="product_data product_title center">
-          <span class="product_data--content">{{ post.title }}</span>
-         </div>
+        <div class="product_infobox center">
+          <h2 class="uppercase">
+            <span class="product_title">{{ post.title }}</span>
+          </h2>
+          <h3 class="italic">
+            <span class="product_subtitle">{{ post.subtitle }}</span>
+          </h3>
+          <h5>
+            <span class="product_function uppercase">{{ post.function }}</span>
+          </h5>
+        </div>
 
 
       </a>
