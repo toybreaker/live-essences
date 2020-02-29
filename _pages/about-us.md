@@ -25,14 +25,18 @@ My intention is to share with you all that I have learned, and all that has brou
 
 Keep brand, products and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
-**Live Essences** is inspired by the purity and power of the natural world. We unlock nature’s healing properties creating products that are pure, unadulterated and honest.
+**Live Essences Wellness shots** is inspired by the purity and power of the natural world. We unlock nature’s healing properties creating products that are pure, unadulterated and honest.
 
 Our drinks are currently produced in Bali from the highest quality ingredients we are able to source, and devoid of any pesticides or harmful chemicals.
 
 ### The Product
 
-We work with high-quality, invigorating ingredients to deliver drinks that are potent tonics. Pure and authentic, our high-vibrational tonics are functional to cellular health. Life elixirs that promote healing, slow ageing and balance our body.
+We work with high-quality, invigorating ingredients to deliver drinks that are potent tonics. Our tonics are functional to cellular health. Life elixirs that promote healing, slow ageing and balance our body.
 
-Rooted in ancient knowledge, our jamu essences are carefully prepared to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy, minimally processed and never overheated.
+Rooted in ancient knowledge, our **Live Essences Wellness shots** are jamu essences carefully prepared to preserve their abundant nutrients, vitamins and their pure, unadulterated life force energy, never overheated and minimally processed.
 
-Crafted from Mother Nature’s most powerful ingredients, our wellness shots use organic, fair-trade premium ingredients sourced from the foothills of Mount Batur in Bali.
+Crafted from Mother Nature’s most powerful ingredients, our drinks use organic, fair-trade premium ingredients sourced from the foothills of Mount Batur in Bali.
+
+**Live Essences Wellness shots** are processed with care and fermented with essential probiotics and vital acetic acids.
+
+Super powerful remedies that aid digestion and boost the immune system, fight bad bacteria and leave you feeling nourished, energised and vibrantly well. 
