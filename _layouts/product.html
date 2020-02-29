@@ -46,21 +46,21 @@
           </h5>
 
           {% if page.selling-points %}
-            <div class="product_selling_points">
-              <ul class="">
+            <div class="product_selling_points top_padded">
+              <div class="">
                 {% for item in page.selling-points %}
-                  <li>{{item.phrase}}</li>
+                  <div>{{item.phrase | upcase}}</div>
                 {% endfor %}
-              </ul>
+              </div>
             </div>
           {% endif %}
 
           {% if page.ingredients %}
-            <div class="product_ingredients">{{ page.ingredients }}</div>
+            <div class="product_ingredients top_padded">{{ page.ingredients | capitalize }}</div>
           {% endif %}
 
           {% if page.prices %}
-          <div class="product_price">Price</div>
+          <div class="product_price top_padded">Price</div>
             {% for item in page.prices %}
              <div>{{item.price}}</div>
             {% endfor %}
@@ -68,7 +68,10 @@
 
         </div>
 
+
       </div>
+
+      {% include previous_next_nav.html %}
 
     </div>
 

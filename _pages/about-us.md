@@ -27,7 +27,7 @@ Keep brand, products and experiences, pure and honest. A mindful business, aimin
 
 **Live Essences Wellness shots** is inspired by the purity and power of the natural world. We unlock nature’s healing properties creating products that are pure, unadulterated and honest.
 
-Our drinks are currently produced in Bali from the highest quality ingredients we are able to source, and devoid of any pesticides or harmful chemicals.
+Our drinks are currently produced in Bali from the highest quality ingredients we are able to source, and devoid of any pesticides or harmful chemicals. 
 
 ### The Product
 

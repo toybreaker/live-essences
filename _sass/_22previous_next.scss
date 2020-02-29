@@ -1,0 +1,18 @@
+.previos_next_navigator {
+    border-top: #cccccc 1px solid;
+    position: relative;
+
+    .right {
+      margin: $vertical_rhythm--small;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .left {
+      margin: $vertical_rhythm--small;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+}

@@ -1,0 +1,33 @@
+<div class="container previos_next_navigator">
+  {% if page.previous %}
+      {% assign previous = page.previous %}
+  {% else %}
+      {% assign previous = site.posts[0] %}
+  {% endif %}
+  <div class="left">
+      <a class="equalize" href="{{site.baseurl}}{{previous.url}}" title="Previous Post: {{previous.title}}">
+          <div>
+              <span> ← previous </span>
+              <h5> {{previous.title | upcase}} </h5>
+          </div>
+      </a>
+  </div>
+
+  {% if page.next %}
+      {% assign next = page.next %}
+  {% else %}
+      {%comment%}
+         As the array index start at zero we substract 1 to the total count,
+         we then get the last post index in the site.posts array
+      {%endcomment%}
+      {% assign last lastPostIndex = site.posts | size | minus: 1 %}
+      {% assign next = site.posts[lastPostIndex] %}
+  {% endif %}
+  <div class="right">
+      <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="next Post: {{next.title}}">
+          <div>
+              <span> next →</span>
+              <h5> {{next.title | upcase}}</h5>
+          </div>
+      </a>
+  </div>
