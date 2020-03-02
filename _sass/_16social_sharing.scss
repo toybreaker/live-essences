@@ -5,13 +5,50 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  h4 {
+
+  .social_share_button {
+      //a
+      display: inline-block;
+      width: auto;
+      line-height: 1.2;
+      font-weight: 400;
+      margin: 0 $vertical_rhythm--small/4;
+      border: 1px solid $grey--dark;
+      border-radius: $border_radius;
+      color: $grey--dark;
+      padding: 4px;
+      background-color: transparent;
+      transition: $button_transition;
+
+      &:focus,
+      &:hover {
+        cursor: pointer;
+        //opacity: 1;
+        color: $brand_color;
+        background-color: $grey--dark;
+      }
+
+      &:active {
+        cursor: pointer;
+        background-color: $grey--dark;
+        -webkit-transform: translateY(0.25em);
+        transform: translateY(0.25em);
+      }
+      &.hide {
+        display: none;
+      }
+  }
+
+  .share_call_to_action {
+    color: $grey--dark;
     padding-right: $vertical_rhythm--small;
     width: 100%;
     text-align: center;
-    padding-bottom: $vertical_rhythm--small;
+    line-height: 2;
+    padding-bottom: $vertical_rhythm--small/4;
     @include media( "screen", ">minWidth") {
       width: auto;
     }
   }
+
 }

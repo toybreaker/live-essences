@@ -33,20 +33,23 @@ figcaption {
   > * {
     //display: block;
     margin: $vertical_rhythm--small;
-    max-width: 100%;
+    width: 100%;
     @include media( "screen", ">bp1Width") {
-      max-width: calc(33.33% - 34px);
+      max-width: calc(50% - 40px);
+    }
+    @include media( "screen", ">maxWidth") {
+      max-width: calc(33.33% - 40px);
     }
   }
 
-  &.only_two {
-    > * {
-      max-width: 100%;
-      @include media( "screen", ">minWidth") {
-        max-width: calc(50% - 34px);
-      }
-    }
-  }
+  // &.only_two {
+  //   > * {
+  //     max-width: 100%;
+  //     @include media( "screen", ">minWidth") {
+  //       max-width: calc(50% - 34px);
+  //     }
+  //   }
+  // }
 }
 
 .looper__link {
