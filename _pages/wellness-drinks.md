@@ -5,5 +5,5 @@ pagetitle: our range of botanical healthy drinks
 slugtitle: wellness-drinks
 subtitle:
 publish: # notyet or blank
-image: /assets/p/others/live-essences-shots.jpg
+image: /assets/p/others/live-essences-wellness-shots.jpg
 ---
