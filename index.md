@@ -1,6 +1,6 @@
 ---
 layout: home
-title: LIVE ESSENCES ♡ Healthy Drinks
+title: Live Essences ♡ Healthy Drinks
 subtitle: nourish, revive, heal.
 description: #
 image: /assets/p/cover/liveessences_cover.jpg
