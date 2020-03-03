@@ -3,7 +3,7 @@ layout: default
 title: about us
 subtitle:
 publish: # notyet or blank
-image: /assets/p/others/about-us.jpg
+image: /assets/p/others/live-essences-about-us.jpg
 ---
 ### My intention is to share what I have learned
 

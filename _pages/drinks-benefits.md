@@ -5,5 +5,5 @@ pagetitle: healthy essences drinks benefits
 slugtitle: drinks-benefits
 subtitle:
 publish: # notyet or blank
-image: /assets/p/others/drinks-benefits.jpg
+image: /assets/p/others/live-essences-benefits.jpg
 ---
