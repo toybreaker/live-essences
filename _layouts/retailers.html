@@ -57,6 +57,36 @@
 
                 <div class="block">
 
+                  <h3 class="location_name uppercase">seminyak</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "seminyak" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+
+
+                <div class="block">
+
+                  <h3 class="location_name uppercase">padang padang</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "padang padang" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+                <div class="block">
+
                   <h3 class="location_name uppercase">bingin</h3>
 
                   <ul class="retailers_list">
@@ -68,6 +98,36 @@
                   </ul>
 
                 </div>
+
+                <div class="block">
+
+                  <h3 class="location_name uppercase">ungansan</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "ungansan" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+                <div class="block">
+
+                  <h3 class="location_name uppercase">pecatu</h3>
+
+                  <ul class="retailers_list">
+                  {% for retailer in site.data.retailers %}
+                   {% if retailer.area_name == "pecatu" %}
+                    {% include retailers_list_inner_block.html %}
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+
+                </div>
+
+
 
                 <div class="block">
 
