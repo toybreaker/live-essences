@@ -1,23 +1,47 @@
+$yummy_tummy_color: #e9bd8c;
+$aphrodisiac_color: #812f24;
+$punch_and_glory_color: #a19530;
+$hang_in_there_honey_color: #d2990c;
+$booster_color: #b6272d;
+
 .benefits_block {
   svg {
     min-height: 300px;
   }
 
   .yummy_tummy .illu_product {
-    color: #dce096;
+    color: $yummy_tummy_color;
   }
   .aphrodisiac .illu_product {
-    color: #521616;
+    color: $aphrodisiac_color;
   }
   .punch_and_glory .illu_product {
-    color: #91881f;
+    color: $punch_and_glory_color;
   }
   .hang_in_there_honey .illu_product {
-    color: #d2990c;
+    color: $hang_in_there_honey_color;
   }
   .booster .illu_product {
-    color: #b6272d;
+    color: $booster_color;
   }
 
 
+}
+
+.product_benefits {
+  .yummy-tummy & {
+    color: $yummy_tummy_color;
+  }
+  .aphrodisiac & {
+    color: $aphrodisiac_color;
+  }
+  .punch-glory & {
+    color: $punch_and_glory_color;
+  }
+  .hang-in-there-honey & {
+    color: $hang_in_there_honey_color;
+  }
+  .booster & {
+    color: $booster_color;
+  }
 }
