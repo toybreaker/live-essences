@@ -30,7 +30,12 @@ $booster_color: #b6272d;
 
 .product_benefits {
   padding: $vertical_rhythm--small;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
   border: 2px solid transparent;
+
   .yummy-tummy & {
     border-color: $yummy_tummy_color;
   }
