@@ -29,19 +29,21 @@ $booster_color: #b6272d;
 }
 
 .product_benefits {
+  padding: $vertical_rhythm--small;
+  border: 2px solid transparent;
   .yummy-tummy & {
-    color: $yummy_tummy_color;
+    border-color: $yummy_tummy_color;
   }
   .aphrodisiac & {
-    color: $aphrodisiac_color;
+    border-color: $aphrodisiac_color;
   }
   .punch-glory & {
-    color: $punch_and_glory_color;
+    border-color: $punch_and_glory_color;
   }
   .hang-in-there-honey & {
-    color: $hang_in_there_honey_color;
+    border-color: $hang_in_there_honey_color;
   }
   .booster & {
-    color: $booster_color;
+    border-color: $booster_color;
   }
 }
