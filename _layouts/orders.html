@@ -24,6 +24,15 @@
 
             <h4 class="center">{{ page.subtitle }}</h4>
 
+            {% if site.company.telephone_whatsapp %}
+            <div class="footer_icon telephone center">
+              <a class="menu_item" role="menuitem" href="https://wa.me/{{site.company.telephone_whatsapp | remove:'+' | remove:' ' }}?text=I%20want%20to%20place%20an%20order...%20Please%20contact%20me" title="Send a WhatsApp message to order products">
+                <span>{% include svg/use.html id="icn--whatsapp--color" class="whatsapp" %}</span>
+                <span><span class="hide_on_phones">Contact {{site.short_title}} via&nbsp;</span>WhatsApp</span>
+              </a>
+            </div>
+            {% endif %}
+
           </div>
 
         </div>
