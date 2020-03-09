@@ -50,7 +50,7 @@ facebook:
 logo: /assets/favicons/apple-touch-icon-152x152.png
 
 google:
-  analytics:
+  analytics: UA-122466061-1
   verification:
 
 # Build settings
