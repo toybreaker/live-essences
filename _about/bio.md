@@ -12,9 +12,9 @@ image_align_bottom:  #true or empty
 ## Education
 
 
-1995/96 Grant in Philosophy - University of Paris La Sorbonne IV,France
+1995/96 Grant in Philosophy - University of Paris La Sorbonne IV, France
 
-1997 Degree in Philosophy with a thesis in Aesthetics - University of Genoa,Italy
+1997 Degree in Philosophy with a thesis in Aesthetics - University of Genoa, Italy
 
 1990/2000 Academy of Fine Art of Brera - Milan,Italy
 
