@@ -4,6 +4,7 @@ title: about us
 subtitle:
 publish: # notyet or blank
 image: /assets/p/others/live-essences-about-us.jpg
+description: "My intention is to share what I've learned. Live Essences offers healthy drinks. Protect yourself by boosting natural defences. WhatsApp us to order!" #max 160 char!
 ---
 ### My intention is to share what I have learned
 

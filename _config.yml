@@ -1,10 +1,10 @@
 title: Live Essences
 short_title: Live Essences
 subtitle: ""
-description: "NOURISH | REVIVE | ENERGIZE. Transforming medicinal plants into wellness shots. Live Essences offer a selection of botanical drinks, made from herbs, fruits and wild roots rich in natural vitamins, minerals, antioxidants and probiotics, for an healthy life."
+description: "NOURISH, PROTECT, ENERGIZE. Medicinal plants made Wellness Shots. We make botanical drinks rich in vitamins, minerals, antioxidants, probiotics, to live healthy"
 keywords: natural, fruits, vitamins, minerals, antioxidants, botanical, essences, probiotics, healthy life, Live Essences, herbs, wild roots, drinks, Bali, Indonesia, made in Bali.
 lang: en
-version: 0.2.5
+version: 0.2.6
 baseurl: ""
 url: "https://live-essences.com"
 qr: true # 'true' or empty put qr.svg in includes/defs.html call it: icn--qr
