@@ -22,7 +22,13 @@
 
             <h2 class="center">{{ page.title | capitalize }}</h2>
 
+            {% if page.subtitle %}
             <h4 class="center">{{ page.subtitle }}</h4>
+            {% endif %}
+
+            {% if page.call-to-action %}
+            <h4 class="center">{{ page.call-to-action }}</h4>
+            {% endif %}
 
             {% if site.company.telephone_whatsapp %}
             <div class="footer_icon telephone center">
