@@ -2,28 +2,13 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url:
+webhook_url: 
 sections:
 - type: directory
   path: _wellnessshots
   label: Wellnessshots
   create: all
   match: "**/*"
-
-- type: document
-  label: Data
-  create: none
-  match: _data/retailers.csv
-
-- type: document
-  label: Help
-  path: README.md
-  read_only: true
-
-- type: document
-  label: Homepage
-  path: index.md
-
 - type: directory
   path: _retailers
   label: Retailers
@@ -37,6 +22,10 @@ sections:
 - type: document
   path: index.md
   label: Homepage
+- type: document
+  path: _data/retailers.csv
+  label: Retailers
+  match: "**/*"
 - type: document
   path: README.md
   label: Help
