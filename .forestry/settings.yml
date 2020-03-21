@@ -5,6 +5,11 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
+  path: _retailers
+  label: retailers
+  create: all
+  match: "**/*"
+- type: directory
   path: _data
   label: data
   create: all
@@ -31,6 +36,8 @@ front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
 build:
+  preview_env:
+  - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
