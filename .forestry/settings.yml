@@ -10,11 +10,10 @@ sections:
   create: none
   match: "**/*"
 
-- type: directory
-  path: _data
+- type: document
   label: Data
   create: none
-  match: "*.csv"
+  match: _data/retailers.csv
 
 - type: document
   label: Help
