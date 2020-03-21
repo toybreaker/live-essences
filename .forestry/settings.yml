@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: _retailers
@@ -11,12 +11,16 @@ sections:
   match: "**/*"
 - type: directory
   path: _data
-  label: data
+  label: Data
   create: all
-  match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
+  match: "*.csv"
+- type: document
+  label: Help
+  path: README.md
+  read_only: true
+- type: document
+  label: Homepage
+  path: index.md
 - type: jekyll-posts
   label: Posts
   create: all
