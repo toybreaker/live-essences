@@ -6,17 +6,11 @@ webhook_url:
 sections:
 - type: document
   path: _data/retailers.yaml
-  label: Ret
-  match: "**/*"
+  label: Retailers
 - type: directory
   path: _wellnessshots
   label: Wellnessshots
   create: all
-  match: "**/*"
-- type: directory
-  path: _retailers
-  label: Retailers
-  create: none
   match: "**/*"
 - type: directory
   path: _pages
