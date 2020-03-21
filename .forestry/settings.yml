@@ -13,7 +13,7 @@ sections:
 - type: document
   label: Data
   create: none
-  match: "_data/retailers.csv"
+  match: "_data/retailers.yaml"
 
 - type: document
   label: Help
@@ -37,6 +37,9 @@ sections:
 - type: document
   path: index.md
   label: Homepage
+- type: document
+  path: _data/retailers.csv
+  label: Data
 - type: document
   path: README.md
   label: Help
