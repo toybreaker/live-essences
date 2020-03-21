@@ -13,7 +13,7 @@ sections:
 - type: document
   label: Data
   create: none
-  match: _data/retailers.csv
+  match: "_data/retailers.csv"
 
 - type: document
   label: Help
