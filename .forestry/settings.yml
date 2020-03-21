@@ -5,9 +5,9 @@ admin_path: admin
 webhook_url:
 sections:
 - type: directory
-  path: _retailers
-  label: retailers
-  create: none
+  path: _wellnessshots
+  label: Wellnessshots
+  create: all
   match: "**/*"
 
 - type: document
@@ -25,23 +25,27 @@ sections:
   path: index.md
 
 - type: directory
+  path: _retailers
+  label: Retailers
+  create: none
+  match: "**/*"
+- type: directory
   path: _pages
   label: Pages
   create: all
   match: "**/*"
-
-- type: directory
-  path: _wellnessshots
-  label: Wellnessshots
-  create: all
-  match: "**/*"
-
+- type: document
+  path: index.md
+  label: Homepage
+- type: document
+  path: README.md
+  label: Help
+  read_only: true
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
-
 build:
   preview_env:
   - JEKYLL_ENV=staging
