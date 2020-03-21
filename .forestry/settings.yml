@@ -24,8 +24,7 @@ sections:
   label: Homepage
 - type: document
   path: _data/retailers.csv
-  label: Retailers
-  match: "**/*"
+  label: Data
 - type: document
   path: README.md
   label: Help
