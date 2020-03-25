@@ -1,70 +1,17 @@
 ---
-
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
 
-  {% include head.html %}
 
-  <body class="{{page.title}} orders">
+{% if page.call-to-action %}
+  <h4 class="center">{{ page.call-to-action }}</h4>
+{% endif %}
 
-    {% include svg/defs.html %}
-
-    {% include header.html %}
-
-    <div class="bungkus group" role="main">
-
-      <div class="container">
-
-        <div class="content">
-
-          <div class="content_header">
-
-            <h2 class="center">{{ page.title | capitalize }}</h2>
-
-            {% if page.subtitle %}
-            <h4 class="center">{{ page.subtitle }}</h4>
-            {% endif %}
-
-            {% if page.call-to-action %}
-            <h4 class="center">{{ page.call-to-action }}</h4>
-            {% endif %}
-
-            {% if site.company.telephone_whatsapp %}
-            <div class="footer_icon telephone center">
-              <a class="menu_item" role="menuitem" href="https://wa.me/{{site.company.telephone_whatsapp | remove:'+' | remove:' ' }}?text=I%20want%20to%20place%20an%20order...%20Please%20contact%20me" title="Send a WhatsApp message to order products">
-                <span>{% include svg/use.html id="icn--whatsapp--color" class="whatsapp" %}</span>
-                <span><span class="hide_on_phones">Contact {{site.short_title}} via&nbsp;</span>WhatsApp</span>
-              </a>
-            </div>
-            {% endif %}
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="bungkus group top_border">
-
-      <div class="container">
-
-        <h4 class="center">We support recycling in Bali.<br />We give a 10% discount to customers on their next purchase, when bottles are returned.</h4>
-
-      </div>
-
-    </div>
-
-    {% include footer.html %}
-
-    {% include script_ext_link.html %}
-
-    {% include script_append_to_copy_action.html %}
-
-    {% include script_google_analytics.html %}
-
-  </body>
-
-</html>
+{% if site.company.telephone_whatsapp %}
+  <div class="footer_icon telephone center">
+    <a class="menu_item" role="menuitem" href="https://wa.me/{{site.company.telephone_whatsapp | remove:'+' | remove:' ' }}?text=I%20want%20to%20place%20an%20order...%20Please%20contact%20me" title="Send a WhatsApp message to order products">
+      <span>{% include svg/use.html id="icn--whatsapp--color" class="whatsapp" %}</span>
+      <span><span class="hide_on_phones">Contact {{site.short_title}} via&nbsp;</span>WhatsApp</span>
+    </a>
+  </div>
+{% endif %}

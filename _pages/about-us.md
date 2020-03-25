@@ -6,7 +6,7 @@ publish: # notyet or blank
 image: /assets/p/others/live-essences-about-us.jpg
 description: "My intention is to share what I've learned. Live Essences offers healthy drinks. Protect yourself by boosting natural defences. WhatsApp us to order!" #max 160 char!
 ---
-### My intention is to share what I have learned
+## My intention is to share what I have learned
 
 My name is Iris. I am Greek-German. Grandmother Yaya was a  full of vigour mountain farmer in a tiny village in the island of Crete. She fed my summers with wonderful stories of plants and natural wisdom.
 
@@ -22,13 +22,13 @@ Today, I have put all these feelings into 5 Essences, crafted with ancient wisdo
 
 My intention is to share with you all what I have learned, and all that has brought me happiness and fulfilment, in the hope this will help you on your own journey.
 
-### Our Vision
+## Our Vision
 
 Keep products, brand and experiences, pure and honest. A mindful business, aiming to be fully organic and 100% self-sustainable.
 
 **Live Essences** is inspired by the purity and power of the natural world. We unlock nature’s healing properties creating unadulterated and healthy products.
 
-### The Product
+## The Product
 
 We work with high-quality, invigorating ingredients to deliver drinks that are potent tonics, functional to cellular health. Life elixirs promoting healing, slowing ageing and balancing our body.
 

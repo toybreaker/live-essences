@@ -1,209 +1,157 @@
 ---
-
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
-
-  {% include head.html %}
-
-  <body class="{{page.title}} retailers">
-
-    {% include svg/defs.html %}
-
-    {% include header.html %}
-
-    <div class="bungkus group" role="main">
-
-      <div class="container">
-
-        <div class="content">
-
-          <div class="content_header">
-
-            <h2 class="center">{{ page.title | capitalize }}</h2>
-
-            <h4 class="center">{{ page.subtitle | capitalize }}</h4>
-
-            <div class="block_grid_container">
-
-              <div class="auto_grid">
-
-                <div class="block">
-                  <h3 class="location_name uppercase">canggu</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "canggu" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">ubud</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "ubud" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">seminyak</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "seminyak" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
 
 
+<div class="block_grid_container">
 
-                <div class="block">
+  <div class="auto_grid">
 
-                  <h3 class="location_name uppercase">padang padang</h3>
+    <div class="block">
+      <h3 class="location_name uppercase">canggu</h3>
 
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "padang padang" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">bingin</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "bingin" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">ungansan</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "ungansan" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">pecatu</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "pecatu" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">nusa dua</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "nusa dua" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">gili air</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "gili air" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-                <div class="block">
-
-                  <h3 class="location_name uppercase">gili trawangan</h3>
-
-                  <ul class="retailers_list">
-                  {% for retailer in site.data.retailers %}
-                   {% if retailer.area_name == "gili trawangan" %}
-                    {% include retailers_list_inner_block.html %}
-                    {% endif %}
-                  {% endfor %}
-                  </ul>
-
-                </div>
-
-              </div>
-
-            </div>
-
-
-          </div>
-
-        </div>
-
-      </div>
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "canggu" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
 
     </div>
 
-    <div class="bungkus group top_border">
+    <div class="block">
 
-      <div class="container">
+      <h3 class="location_name uppercase">ubud</h3>
 
-        <h4 class="center">We support recycling in Bali.<br />We give a 10% discount to customers on their next purchase, when bottles are returned.</h4>
-
-      </div>
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "ubud" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
 
     </div>
 
-    {% include footer.html %}
+    <div class="block">
 
-    {% include script_ext_link.html %}
+      <h3 class="location_name uppercase">seminyak</h3>
 
-    {% include script_append_to_copy_action.html %}
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "seminyak" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
 
-    {% include script_google_analytics.html %}
+    </div>
 
-  </body>
 
-</html>
+
+    <div class="block">
+
+      <h3 class="location_name uppercase">padang padang</h3>
+
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "padang padang" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+    </div>
+
+    <div class="block">
+
+      <h3 class="location_name uppercase">bingin</h3>
+
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "bingin" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+    </div>
+
+    <div class="block">
+
+      <h3 class="location_name uppercase">ungansan</h3>
+
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "ungansan" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+    </div>
+
+    <div class="block">
+
+      <h3 class="location_name uppercase">pecatu</h3>
+
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "pecatu" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+    </div>
+
+
+
+    <div class="block">
+
+      <h3 class="location_name uppercase">nusa dua</h3>
+
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "nusa dua" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+    </div>
+
+
+
+    <div class="block">
+
+      <h3 class="location_name uppercase">gili air</h3>
+
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "gili air" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+    </div>
+
+    <div class="block">
+
+      <h3 class="location_name uppercase">gili trawangan</h3>
+
+      <ul class="retailers_list">
+      {% for retailer in site.data.retailers %}
+       {% if retailer.area_name == "gili trawangan" %}
+        {% include retailers_list_inner_block.html %}
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>

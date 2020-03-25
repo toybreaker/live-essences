@@ -4,7 +4,7 @@
   padding: 0 0 $vertical_rhythm 0;
   width: 100%;
   background-color: $brand_color;
-  border-top: darken($bg_color, 20) 1px solid;
+  border-top: $grey 1px solid;
 
   .container {
     display: -webkit-box;

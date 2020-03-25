@@ -2,11 +2,11 @@
 
 ---
 <!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}{{ site.lang }}{% endif %}" prefix="og: http://ogp.me/ns#">
 
   {% include head.html %}
 
-  <body class="{{page.title | slugify}}">
+  <body class="{% if page.layout == "product" %}product {{ page.slugtitle }}{% endif %} {% if page.layout == "drinks_benefits" %}product{% endif %} {{ page.title | slugify }} ">
 
     {% include svg/defs.html %}
 
@@ -18,13 +18,19 @@
 
         <div class="content">
 
+          {% unless page.layout == "product" %}
+
           <div class="content_header">
 
-            <h2 class="center">{{ page.title | capitalize }}</h2>
+            <h1 class="center uppercase {% if page.layout == "wellness_drinks" %} bottom_padded{% endif %}"> {{ page.title | capitalize }}</h1>
 
-            <h4 class="center">{{ page.subtitle }}</h4>
+            {% if page.subtitle %}
+             <h2 class="center {% if page.layout == "wellness_drinks" %}uppercase bottom_padded top_padded{% endif %}"> {{ page.subtitle | capitalize }}</h2>
+            {% endif %}
 
           </div>
+
+          {% endunless %}
 
           <div class="content_body">{{ content }}</div>
 
@@ -34,7 +40,24 @@
 
     </div>
 
+    {% if page.layout == "product" %}
+    <div class="bungkus group top_border">
+
+      {% include previous_next_nav.html %}
+
+    </div>
+    {% endif %}
+
+
+
+    {% if page.title contains "orders" or page.title contains "retailers" %}
+      {% include recycling.html %}
+    {% endif %}
+
+    {% include mailchimp-banner.html %}
+
     {% include footer.html %}
+
 
     {% include script_ext_link.html %}
 

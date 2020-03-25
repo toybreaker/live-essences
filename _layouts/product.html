@@ -1,95 +1,56 @@
 ---
-
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}" prefix="og: http://ogp.me/ns#">
 
-  {% include head.html %}
+<div class="product_image_box">
 
-  <body class="product {{ page.slugtitle }}">
+  {% comment %}
+  assign the page image and split at the extension dot
+  {% endcomment %}
 
-    {% include svg/defs.html %}
+  {% assign f = page.image | split: '.' %}
 
-    {% include header.html %}
+  <img class="product_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+       srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
+               {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
+               {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
+               {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
+       sizes="100vw" alt="{{ page.name }} - {{ page.subtitle }}" />
 
-    <div class="bungkus group" role="main">
+</div>
 
-      <div class="container">
+<div class="product_infobox center">
 
-        <div class="product_image_box">
+  <h2 class="uppercase">
+    <span class="product_title">{{ page.title }}</span>
+  </h2>
+  <h3 class="italic">
+    <span class="product_subtitle">{{ page.subtitle }}</span>
+  </h3>
+  <h5>
+    <span class="product_function uppercase">{{ page.function }}</span>
+  </h5>
 
-          {% comment %}
-          assign the page image and split at the extension dot
-          {% endcomment %}
-
-          {% assign f = page.image | split: '.' %}
-
-          <img class="product_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
-               srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
-                       {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
-                       {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
-                       {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
-               sizes="100vw" alt="{{ page.name }} - {{ page.subtitle }}" />
-
-        </div>
-
-        <div class="product_infobox center">
-
-          <h2 class="uppercase">
-            <span class="product_title">{{ page.title }}</span>
-          </h2>
-          <h3 class="italic">
-            <span class="product_subtitle">{{ page.subtitle }}</span>
-          </h3>
-          <h5>
-            <span class="product_function uppercase">{{ page.function }}</span>
-          </h5>
-
-          {% if page.selling-points %}
-            <div class="product_benefits top_margin--thin">
-                {% for item in page.selling-points %}
-                  <div>{{item.phrase | upcase}}</div>
-                {% endfor %}
-
-            </div>
-          {% endif %}
-
-          {% if page.ingredients %}
-            <div class="product_ingredients top_padded">{{ page.ingredients | capitalize }}</div>
-          {% endif %}
-
-          {% if page.prices %}
-          <div class="product_price top_padded">Price</div>
-            {% for item in page.prices %}
-             <div>{{item.price}}</div>
-            {% endfor %}
-          {% endif %}
-
-        </div>
-
-        {% include social_sharing.html %}
-
-      </div>
+  {% if page.selling-points %}
+    <div class="product_benefits top_margin--thin">
+        {% for item in page.selling-points %}
+          <div>{{item.phrase | upcase}}</div>
+        {% endfor %}
 
     </div>
+  {% endif %}
 
-    <div class="bungkus group top_border">
+  {% if page.ingredients %}
+    <div class="product_ingredients top_padded">{{ page.ingredients | capitalize }}</div>
+  {% endif %}
 
-      {% include previous_next_nav.html %}
+  {% if page.prices %}
+  <div class="product_price top_padded">Price</div>
+    {% for item in page.prices %}
+     <div>{{item.price}}</div>
+    {% endfor %}
+  {% endif %}
 
-    </div>
+</div>
 
-
-
-    {% include footer.html %}
-
-    {% include script_ext_link.html %}
-
-    {% include script_append_to_copy_action.html %}
-
-    {% include script_google_analytics.html %}
-
-
-  </body>
-
-</html>
+{% include social_sharing.html %}

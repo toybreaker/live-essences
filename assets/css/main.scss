@@ -8,7 +8,7 @@ $complement_brand_color: lighten(complement($brand_color), 30);
 $invert_brand_color: lighten(invert($brand_color), 30);
 
 $black: hsl(0,0,0);
-$grey: hsl(0,0,80%);
+$grey: hsl(0,0,80%); // #ccc
 $grey--light: hsl(0,0,90%);
 $grey--dark: hsl(0,0,65%);
 $grey--darker: hsl(0,0,50%);
@@ -127,5 +127,6 @@ $heading6_max: 26px;
 "21auto_grid",
 "22previous_next",
 "23benefits",
-"24ritual"
+"24ritual",
+"25mailchimp"
 ;
