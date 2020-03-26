@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Live Essences ♡ Healthy Drinks
-subtitle: nourish, revive, protect.
+subtitle: nourish, revive, boost.
 description: #
 image: /assets/p/cover/liveessences_cover.jpg
 image_products_intro: /assets/p/products_with_background/live-essences-products.jpg
