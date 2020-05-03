@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Live Essences ♡ Healthy Drinks
-subtitle: "Empowers you to listen to your bodies needs."
+subtitle: "Empowers you to listen to your body's needs."
 first_slogan: "Nourish, revive, boost with potent all-natural botanicals targeting gut health for maximum results."
 description: #
 image: /assets/p/cover/liveessences_cover.jpg
