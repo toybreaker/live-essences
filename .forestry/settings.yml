@@ -5,11 +5,11 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: document
-  path: index.md
-  label: Homepage
-- type: document
   path: _data/retailers.yaml
   label: Retailers
+- type: document
+  path: index.md
+  label: Homepage
 - type: directory
   path: _wellnessshots
   label: Wellnessshots
