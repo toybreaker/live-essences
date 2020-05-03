@@ -89,10 +89,22 @@
   }
 }
 
+.menu_header_wrap {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 .menu_header {
+  display: flex;
+  border-top: $grey 1px solid;
+  border-bottom: $grey 1px solid;
+  
   .menu_item {
     //a
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-right: $vertical_rhythm--small/2;
     margin-left: $vertical_rhythm--small/2;
     -webkit-box-pack: center;
