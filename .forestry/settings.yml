@@ -5,6 +5,9 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: document
+  path: index.md
+  label: Homepage
+- type: document
   path: _data/retailers.yaml
   label: Retailers
 - type: directory
@@ -17,9 +20,6 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-- type: document
-  path: index.md
-  label: Homepage
 - type: document
   path: README.md
   label: Help
