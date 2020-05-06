@@ -93,15 +93,15 @@
   display: flex;
   justify-content: center;
 
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 .menu_header {
   display: flex;
   border-top: $grey 1px solid;
   border-bottom: $grey 1px solid;
-  
+
   .menu_item {
     //a
     font-size: 1.3rem;
