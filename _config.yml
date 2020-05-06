@@ -4,7 +4,7 @@ subtitle: ""
 description: "NOURISH, BOOST, ENERGIZE. Medicinal plants made Wellness Shots. We make botanical drinks rich in vitamins, minerals, antioxidants, probiotics, to live healthy"
 keywords: natural, fruits, vitamins, minerals, antioxidants, botanical, essences, probiotics, healthy life, Live Essences, herbs, wild roots, drinks, Bali, Indonesia, made in Bali.
 lang: en
-version: 0.5.1
+version: 0.6.0
 baseurl: ""
 url: "https://live-essences.com"
 qr: true # 'true' or empty put qr.svg in includes/defs.html call it: icn--qr
@@ -54,6 +54,12 @@ google:
   verification:
 
 # Build settings
+# Setup
+sass:
+  sass_dir: _sass
+  style: :compressed
+  # style: :expanded
+
 markdown: kramdown
 plugins:
  - jekyll/tagging
