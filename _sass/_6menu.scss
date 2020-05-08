@@ -49,6 +49,7 @@
   border-top: $grey 1px solid;
   border-bottom: $grey 1px solid;
 
+
   .menu_item {
     //a
     font-size: 1.2rem;
@@ -58,6 +59,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+
     @include media("screen", ">minWidth") {
       font-size: 1.3rem;
       -webkit-box-pack: start;
@@ -66,6 +68,7 @@
     }
 
     &.active {
+      border-bottom: 0 none;
       .long_menu & {
         background-color: $grey--light;
       }
