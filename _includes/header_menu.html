@@ -1,7 +1,7 @@
 
   <div class="menu_header_wrap">
     <div class="menu menu_header" role="menu">
-    {% for item in site.menus.header reversed %}
+    {% for item in site.menus.header %}
 
       {% if page.url contains item.url %}
       <div class="menu_item active" role="menuitem">
