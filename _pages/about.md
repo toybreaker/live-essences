@@ -9,6 +9,8 @@ description: "My intention is to share what I've learned. Live Essences offers h
 ---
 ## My intention is to share what I have learned, to inspire, to empower and ignite you.
 
+{% include video.html url="https://www.youtube.com/embed/fjPXZnPHPaM" width="740" height="416" %}
+
 My name is Iris. I am Greek-German. Grandmother Yaya was a  full of vigour mountain farmer in a tiny village in the island of Crete. She fed my summers with wonderful stories of plants and natural wisdom.
 
 In Munich, I used to spend hours watching grandmother Oma crafting, with engineer precision, stylish and beautiful dresses. I now find myself doing the same, with plants!
