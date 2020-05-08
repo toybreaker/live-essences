@@ -1,6 +1,6 @@
 ---
 layout: orders
-title: orders
+title: order
 publish: # notyet or blank
 menu: header # header or blank
 image: /assets/p/products_with_background/live-essences-products.jpg

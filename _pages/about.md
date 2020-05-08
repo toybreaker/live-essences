@@ -1,13 +1,13 @@
 ---
 layout: default
-title: about us
+title: about
 subtitle:
 publish: # notyet or blank
 menu: header # header or blank
 image: /assets/p/others/live-essences-about-us.jpg
 description: "My intention is to share what I've learned. Live Essences offers healthy drinks. Protect yourself by boosting natural defences. WhatsApp us to order!" #max 160 char!
 ---
-## My intention is to share what I have learned
+## My intention is to share what I have learned, to inspire, to empower and ignite you.
 
 My name is Iris. I am Greek-German. Grandmother Yaya was a  full of vigour mountain farmer in a tiny village in the island of Crete. She fed my summers with wonderful stories of plants and natural wisdom.
 

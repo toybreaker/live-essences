@@ -4,13 +4,9 @@
     {% for item in site.menus.header %}
 
       {% if page.url contains item.url %}
-      <div class="menu_item active" role="menuitem">
-        <a href="{{ item.url }}" title="Go to {{ item.title | capitalize }}">{{ item.title  | capitalize }}</a>
-      </div>
+        <a class="menu_item active" role="menuitem" href="{{ item.url }}" title="Go to {{ item.title | capitalize }}">{{ item.title  | capitalize }}</a>
       {% else %}
-      <div class="menu_item " role="menuitem">
-        <a href="{{ item.url }}" title="Go to {{ item.title | capitalize }}">{{ item.title  | capitalize }}</a>
-      </div>
+        <a class="menu_item" role="menuitem" href="{{ item.url }}" title="Go to {{ item.title | capitalize }}">{{ item.title  | capitalize }}</a>
       {% endif %}
 
     {% endfor %}
