@@ -56,7 +56,12 @@
       {% include recycling.html %}
     {% endif %}
 
-    {% include mailchimp-banner.html %}
+    {% if page.layout contains "wellness_drinks" or page.layout contains "retailers" %}
+      {% include place_order_link.html %}
+    {% else %}
+      {% include mailchimp-banner.html %}
+    {% endif %}
+
 
     {% include footer.html %}
 
