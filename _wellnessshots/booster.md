@@ -8,7 +8,7 @@ selling-points:
  - phrase: strengthens endurance
  - phrase: energiser to help tissue rejuvenation
  - phrase: contributes to a healthy heart
-ingredients: beetroot, dragonfruit, chillies, pineapple, sirsak, Himalayan and sea salt.
+ingredients: beetroot, dragonfruit, chillies, pineapple, sirsak, palmyra nectar, Himalayan and sea salt.
 prices:
  - price: 150k - 250ml Bottle
  - price: 50k - 60ml Bottle
