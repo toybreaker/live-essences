@@ -8,7 +8,7 @@ selling-points:
  - phrase: Vitamin and Immune booster
  - phrase: Powerful antioxidants
  - phrase: Essential Minerals
-ingredients: turmeric, ginger, lime, tamarind, cinnamon, pepper, palmyra nectar, papaya vinegar.
+ingredients: turmeric, ginger, lime, tamarind, cinnamon, pepper, palmyra nectar, turmeric vinegar.
 prices:
  - price: 150k - 250ml Bottle
  - price: 50k - 60ml Bottle
