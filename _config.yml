@@ -1,34 +1,34 @@
-title: Live Essences
-short_title: Live Essences
-subtitle: ""
-description: "NOURISH, BOOST, ENERGIZE. Medicinal plants made Wellness Shots. We make botanical drinks rich in vitamins, minerals, antioxidants, probiotics, to live healthy"
-keywords: natural, fruits, vitamins, minerals, antioxidants, botanical, essences, probiotics, healthy life, Live Essences, herbs, wild roots, drinks, Bali, Indonesia, made in Bali.
-lang: en
-version: 0.8.0
-baseurl: ""
-url: "https://live-essences.com"
+title:                Live Essences
+short_title:          Live Essences
+subtitle:             ""
+description:          "NOURISH, BOOST, ENERGIZE. Medicinal plants made Wellness Shots. We make botanical drinks rich in vitamins, minerals, antioxidants, probiotics, to live healthy"
+keywords:             natural, fruits, vitamins, minerals, antioxidants, botanical, essences, probiotics, healthy life, Live Essences, herbs, wild roots, drinks, Bali, Indonesia, made in Bali.
+lang:                 en
+version:              1.0.0
+baseurl:              ""
+url:                  "https://live-essences.com"
 qr: true # 'true' or empty put qr.svg in includes/defs.html call it: icn--qr
 
 company:
-  name: Live Essences #
-  legal_name: #if overrides 'company.name' in footer
-  email: liveessences@gmail.com
+  name:               Live Essences #
+  legal_name:         #if overrides 'company.name' in footer
+  email:              liveessences@gmail.com
   telephone:
   telephone_whatsapp: +628123858928 #
-  fax: #
+  fax:                #
   address:
-  maplink: #
-  country: #
-  twitter: #
-  facebook_page: "https://www.facebook.com/liveessences"
-  youtube: "https://www.youtube.com/channel/UC-CrtGFNj_L4-7vbRtXzQQw/featured?disable_polymer=1"
-  instagram: "https://www.instagram.com/liveessences"
+  maplink:            #
+  country:            #
+  twitter:            #
+  facebook_page:      "https://www.facebook.com/liveessences"
+  youtube:            "https://www.youtube.com/channel/UC-CrtGFNj_L4-7vbRtXzQQw/featured?disable_polymer=1"
+  instagram:          "https://www.instagram.com/liveessences"
   vimeo:
-  booking: #complete URL
-  airbnb: #complete URL
-  gplus: #
-  tumblr: #
-  soundcloud: #complete URL
+  booking:            #complete URL
+  airbnb:             #complete URL
+  gplus:              #
+  tumblr:             #
+  soundcloud:         #complete URL
 
 #SEO https://jekyll.github.io/jekyll-seo-tag/usage/
 #
@@ -40,27 +40,27 @@ company:
 # author - Page-specific author (see below)
 # lang - Page-specific language
 
-author: rokma
+author:               rokma
 twitter:
-  username: rokmatwit
+  username:           rokmatwit
 facebook:
-  app_id: #Facebook app ID for Facebook insights
-  publisher: #Facebook page URL or ID of the publishing entity
-  admins: #Facebook user ID for domain insights linked to a personal account
-logo: /assets/favicons/apple-touch-icon-152x152.png
+  app_id:             #Facebook app ID for Facebook insights
+  publisher:          #Facebook page URL or ID of the publishing entity
+  admins:             #Facebook user ID for domain insights linked to a personal account
+logo:                 /assets/favicons/apple-touch-icon-152x152.png
 
 google:
-  analytics: UA-122466061-1
+  analytics:          UA-122466061-1
   verification:
 
 # Build settings
 # Setup
 sass:
-  sass_dir: _sass
-  style: :compressed
-  # style: :expanded
+  sass_dir:           _sass
+  style:              :compressed
+  # style:            :expanded
 
-markdown: kramdown
+markdown:             kramdown
 plugins:
  - jekyll/tagging
  - jekyll-seo-tag
@@ -81,23 +81,23 @@ exclude:
   - uploads
   - rakefile
 
-permalink: /:title/ # pretty
+permalink:            /:title/ # pretty
 
 collections:
  wellnessshots:
-  output: true
-  permalink: /wellnessshots/:title/
+  output:             true
+  permalink:          /wellnessshots/:title/
  pages:
-  output: true
-  permalink: /:title/
+  output:             true
+  permalink:          /:title/
 
 defaults:
   - scope:
-      type: posts
+      type:           posts
     values:
-      layout: "product"
+      layout:         "product"
 
-tag_page_layout: post_index_tag
-tag_page_dir: ./
-tag_permalink_style: pretty
+tag_page_layout:      post_index_tag
+tag_page_dir:         ./
+tag_permalink_style:  pretty
 ignored_tags:
